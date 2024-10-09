@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "nom": "Cafetera automàtica",
+      "imatge": "./assets/images/products/clothesnou1.jpg",
+      "descripcio": "Cafetera automàtica amb control de temperatura i filtre reutilitzable.",
+      "preu": 129.99,
+      "descompte": 0.3,
+      "puntuacio": 4
+    },
+    {
+      "id": 2,
+      "nom": "Aspiradora sense cable",
+      "imatge": "./assets/images/products/clothesnou2.jpg",
+      "descripcio": "Aspiradora sense cable amb alta potència d'aspiració i llarga durada de la bateria.",
+      "preu": 199.99,
+      "descompte": 0.3,
+      "puntuacio": 4
+    },
+    {
+      "id": 3,
+      "nom": "Televisor OLED 55'",
+      "imatge": "./assets/images/products/shirtnou2.jpg",
+      "descripcio": "Televisor OLED de 55 polzades amb resolució 4K i compatibilitat HDR.",
+      "preu": 799.99,
+      "descompte": 0.1,
+      "puntuacio": 4
+    },
+    {
+      "id": 4,
+      "nom": "Smartwatch esportiu",
+      "imatge": "./assets/images/products/jacketnou3.jpg",
+      "descripcio": "Smartwatch resistent a l'aigua amb monitor de freqüència cardíaca i GPS integrat.",
+      "preu": 249.99,
+      "descompte": 0,
+      "puntuacio": 1
+    },
+    {
+      "id": 5,
+      "nom": "Auriculars sense fils",
+      "imatge": "./assets/images/products/partynouwearnou2.jpg",
+      "descripcio": "Auriculars sense fils amb cancel·lació activa de soroll i so immersiu.",
+      "preu": 149.99,
+      "descompte": 0.2,
+      "puntuacio": 3
+    },
+    {
+      "id": 6,
+      "nom": "Portàtil ultralleuger",
+      "imatge": "./assets/images/products/shortsnou1.jpg",
+      "descripcio": "Portàtil lleuger amb pantalla de 14 polzades, processador Intel i7 i 16GB de RAM.",
+      "preu": 1199.99,
+      "descompte": 0.15,
+      "puntuacio": 3
+    },
+    {
+      "id": 7,
+      "nom": "Altaveu Bluetooth",
+      "imatge": "./assets/images/products/shortsnou2.jpg",
+      "descripcio": "Altaveu portàtil amb so de 360 graus, resistència a l'aigua i autonomia de 24 hores.",
+      "preu": 89.99,
+      "descompte": 0.05,
+      "puntuacio": 2
+    },
+    {
+      "id": 8,
+      "nom": "Càmera reflex digital",
+      "imatge": "./assets/images/products/watchnou1.jpg",
+      "descripcio": "Càmera DSLR amb sensor de 24.1 MP i gravació de vídeo en 4K.",
+      "preu": 699.99,
+      "descompte": 0.25,
+      "puntuacio": 4
+    },
+    {
+      "id": 9,
+      "nom": "Bicicleta elèctrica",
+      "imatge": "./assets/images/products/sportsnou2.jpg",
+      "descripcio": "Bicicleta elèctrica amb autonomia de fins a 100 km i motor de 250W.",
+      "preu": 999.99,
+      "descompte": 0.2,
+      "puntuacio": 5   
+    },
+    {
+      "id": 10,
+      "nom": "Monitor gaming 27'",
+      "imatge": "./assets/images/products/shoenou2.jpg",
+      "descripcio": "Monitor de 27 polzades amb freqüència de refresc de 144Hz i tecnologia G-Sync.",
+      "preu": 349.99,
+      "descompte": 0.1,
+      "puntuacio": 4
+    },
+    {
+      "id": 11,
+      "nom": "Motxilla antirrobatori",
+      "imatge": "./assets/images/products/sportsnou5.jpg",
+      "descripcio": "Motxilla antirrobatori amb compartiment per portàtil de 15 polzades i port USB integrat.",
+      "preu": 49.99,
+      "descompte": 0,
+      "puntuacio": 3
+    },
+    {
+      "id": 12,
+      "nom": "Rellotge clàssic de polsera",
+      "imatge": "./assets/images/products/watchnou3.jpg",
+      "descripcio": "Rellotge clàssic amb corretja de cuir i esfera minimalista.",
+      "preu": 199.99,
+      "descompte": 0,
+      "puntuacio": 0
+    }
+]
