@@ -1,8 +1,6 @@
-import { seriesList } from "./series-static"
 
-const serie = seriesList;
+export default function Movie(serie) {
 
-function Movie(serie) {
     return (
         <>
 
@@ -10,7 +8,7 @@ function Movie(serie) {
                 <div className="seasons ">{serie.seasons}</div>
                 <img src={serie.img} alt={serie.title} />
                 <div className="container">
-                    <div className="Matching ">{seriesList.matching}</div>
+                    <div className="Matching ">{serie.matching}</div>
                     <div className="info-card-container">
                         <div>
                             <span className="pegi ">{serie.pegi}</span>

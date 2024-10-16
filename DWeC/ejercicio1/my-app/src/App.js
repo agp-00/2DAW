@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Movie from './tarjeta.js';
+import { seriesList } from './series-static.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        {seriesList.map 
+        
+        }
         <a
           className="App-link"
           href="https://reactjs.org"
