@@ -1,0 +1,52 @@
+.quote::first-letter {
+    text-transform: uppercase;
+    font-size: 3em; 
+    color: #C7A46F;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FDDCBD;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.quote {
+    
+    background-color: #F2D0AB;
+    border: 1px dashed #C7A46F;
+    padding: 20px;
+    width: 220px;
+    height: 150px;
+    text-align: start;
+    font-style: italic;
+}
+
+.quote:hover {
+    background-color: #A62A2A;
+    color: white;
+}
+
+.quote:hover::first-letter {
+    color: white;
+}
+
+.highlight {
+    background-color: #c74b47;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titulo {
+    text-align: left;
+    padding: 20px;
+}
