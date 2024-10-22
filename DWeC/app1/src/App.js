@@ -1,21 +1,22 @@
 import './App.css';
-import Movie from './tarjeta.js';
-import { seriesList } from './series-static.js';
+import Card from './components/Card';
+import {seriesList} from "./data/series-static.js"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {seriesList.map 
-        
-        }
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World!
+          Learn React
         </a>
       </header>
     </div>
