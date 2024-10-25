@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c2c2c2;
+}
+
+.calendar-container {
+    border: 2px solid #000;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.month-header {
+    background-color: #f4a7a7;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-top: 4px solid #000; /* Línea negra superior */
+    border-bottom: 4px solid #000; /* Línea negra inferior */
+}
+
+.month-header-gray {
+    background-color: #dcdcdc;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.days-of-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding: 0; /* Quitar el padding de los días de la semana */
+}
+
+.days-of-week div {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    font-weight: bold;
+}
+
+.days-of-week-gray {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding: 0; /* Quitar el padding de los días de la semana */
+}
+
+.days-of-week-gray div{
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Alternancia de colores para los días de la semana */
+.days-of-week div:nth-child(odd) {
+    background-color: #f4a7a7; /* Rosa para los días de la semana impares */
+}
+
+.days-of-week div:nth-child(even) {
+    background-color: #fff; /* Blanco para los días de la semana pares */
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.day {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+}
+
+.day.active {
+    background-color: #fff; /* Color blanco por defecto */
+}
+
+.day:nth-child(odd).active {
+    background-color: #f4a7a7; /* Color rosa para días impares */
+}
+
+.day-gray {
+    background-color: #dcdcdc;
+    border: 1px solid #fff;
+}
+
+.day-gray.active{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.day-gray:nth-child(odd).active {
+    background-color: #ffffff;
+}

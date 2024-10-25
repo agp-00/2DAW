@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenedor Centrado</title>
+    <style>
+        /* Estilo para el contenedor externo */
+        .container {
+            width: 90%; /* Ancho del contenedor externo (90% de la pantalla) */
+            height: 100px; /* Alto del contenedor externo */
+            background-color: #fc86b5; /* Color de fondo del contenedor externo */
+            border: 2px solid #333; /* Borde del contenedor externo */
+            margin: 20px auto; /* Centra el contenedor en la página con margen automático */
+            box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
+            display: flex; /* Usamos flexbox para centrar el contenedor interno */
+            align-items: top; /* Centrado verticalmente */
+            justify-content: center; /* Centrado horizontalmente */
+        }
+
+        /* Estilo para el contenedor interno */
+        .inner-container {
+            width: 100%; /* Ancho del contenedor interno (80% del contenedor externo) */
+            height: 70%; /* Alto del contenedor interno */
+            background-color: #ff86e3; /* Color de fondo del contenedor interno */
+            border: 2px solid #333; /* Borde del contenedor interno */
+            display: flex; /* Usamos flexbox para centrar el texto */
+            align-items: center; /* Centrado verticalmente */
+            justify-content: center; /* Centrado horizontalmente */
+            margin-top: 2px;
+            margin-left: 2px;
+            margin-right: 2px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor interno */
+        }
+
+        /* Estilo para el texto dentro del contenedor interno */
+        .inner-text {
+            font-size: 18px; /* Tamaño del texto */
+            color: #333; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="inner-container">
+        <div class="inner-text">Texto en el Contenedor Interno</div>
+    </div>
+</div>
+
+</body>
+</html>
