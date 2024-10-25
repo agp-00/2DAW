@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .chiste-red{
     background-color: #ffadad;
-    padding: 10px;
+    padding: 0px;
     margin: 20px;
     margin-bottom: 10px;
     border-radius: 50px;
@@ -33,14 +33,28 @@ body {
 
 .chiste-green{
     background-color: #b8efb4;
-    padding: 10px;
+    padding: 0px;
     margin: 20px;
     margin-bottom: 10px;
     border-radius: 50px;
     border: 4px solid green;
 }
+
 p{
     font-size: 20px;
     text-align: left;
     padding-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.p1{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 0px;
 }
