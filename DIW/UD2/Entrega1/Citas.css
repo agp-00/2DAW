@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+.quote-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.quote {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text {
+    padding: 15px;
+    background-color: #ffffff;
+    font-size: 1em;
+    color: #333;
+    width: 98%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.author {
+    color: white;
+    font-size: 0.9em;
+}
+
+.quote1 { background-color: #FFC0CB; }
+.quote2 { background-color: #00CB99; }
+.quote3 { background-color: #FFC0CB; }
+.quote4 { background-color: #0066CC; }
+.quote5 { background-color: #00CB99; }
+.quote6 { background-color: #0066CC; }
+
+.textpink { background-color: #FFE5E9; }
+.textgreen { background-color: #A6EDDB; }
+.textblue { background-color: #C2DAF3; }
+
+.green {text-align: left;}
+.blue {text-align: right;}
