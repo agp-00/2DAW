@@ -1,17 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Museos</title>
+    <title>Tres museos de Londres</title>
     <link rel="stylesheet" href="Museos.css">
 </head>
 <body>
-    <h1 class="titulo">Tres museos de Londres</h1>
-    <h3 class="subtitulo">The British Museum   &nbsp;&nbsp;&nbsp; Tate Britain  &nbsp;&nbsp;&nbsp;    The National Gallery</h3>
+    <div class="container">
+        <h1>Tres museos de Londres</h1>
+        <p class="subtitle">The British Museum &nbsp;&nbsp; Tate Britain &nbsp;&nbsp; The National Gallery</p>
 
-    <article class="museum">The British Museum
-    <p>El Museo Británico se fundó en 1735 y alberga antigüedades procedentes de Egipto, Roma, Grecia, Oriente Próximo y Asia. El edificio se empezó a construir en 1824, fue diseñado por Robert Smirke y hasta 1997 también era la sede de la Biblioteca Británica. Seguramente sólo haya dos museos en el mundo comparables en la variedad y riqueza de sus colecciones: el Louvre de París y el Metropolitan de Nueva York. La entrada es gratuita.</p>
-    </article>
+        <div class="museum-card">
+            <div class="museum-content">
+                <h2>The British Museum</h2>
+                <p>El Museo Británico se fundó en 1735 y alberga antigüedades procedentes de Egipto, Roma, Grecia, Oriente Próximo y Asia. El edificio se empezó a construir en 1824, fue diseñado por Robert Smirke y hasta 1997 también era la sede de la Biblioteca Británica. Seguramente solo haya dos museos en el mundo comparables en la variedad y riqueza de sus colecciones: el Louvre de París y el Metropolitan de Nueva York. La entrada es gratuita.</p>
+                <a href="#" class="back-link">Volver</a>
+            </div>
+            <div class="museum-image">
+                <img src="./img/british_museum.jpg" alt="The British Museum">
+            </div>
+        </div>
+
+        <div class="museum-card tate">
+            <div class="museum-image tateimg">
+                <img src="./img/tate_britain.jpg" alt="Tate Britain">
+            </div>
+            <div class="museum-content">
+                <h2>Tate Britain</h2>
+                <p>En 1897 se abrió al público, al sur de Westminster, la Galería Nacional de Arte Británico, gracias al dinero aportado por Henry Tate, magnate del azúcar conocido. En 1932 se mudó a pasar a llamarse Tate Gallery. Una de las mayores colecciones de arte británico, entre otros, reúne obras maestras de grandes autores como Turner, Constable y Bacon. Como dato curioso la obra se encuentra al frente de la Catedral de San Pablo.</p>
+            </div>
+            <div>
+            </div>
+        </div>
+
+        <div class="museum-card">
+            <div class="museum-content">
+                <h2>The National Gallery</h2>
+                <p>En 1805, cerca del Cabo de Trafalgar, a medio camino entre Cádiz y Gibraltar, tuvo lugar una crucial batalla naval entre las flotas inglesa y franco-española. Esa inolvidable victoria iba a marcar para siempre la invasión de Inglaterra. Una fortaleza al sur del país, de donde no se ha podido ver la historia de la cultura pictórica inglesa. Esta impresionante colección alberga una de las colecciones de arte europeo más importantes de Londres.</p>
+                <a href="#" class="back-link">Volver</a>
+            </div>
+            <div class="museum-image">
+                <img src="./img/trafalgar_square.jpg" alt="The National Gallery">
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

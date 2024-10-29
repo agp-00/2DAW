@@ -3,50 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contenedor Centrado</title>
-    <style>
-        /* Estilo para el contenedor externo */
-        .container {
-            width: 90%; /* Ancho del contenedor externo (90% de la pantalla) */
-            height: 100px; /* Alto del contenedor externo */
-            background-color: #fc86b5; /* Color de fondo del contenedor externo */
-            border: 2px solid #333; /* Borde del contenedor externo */
-            margin: 20px auto; /* Centra el contenedor en la página con margen automático */
-            box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
-            display: flex; /* Usamos flexbox para centrar el contenedor interno */
-            align-items: top; /* Centrado verticalmente */
-            justify-content: center; /* Centrado horizontalmente */
-        }
-
-        /* Estilo para el contenedor interno */
-        .inner-container {
-            width: 100%; /* Ancho del contenedor interno (80% del contenedor externo) */
-            height: 70%; /* Alto del contenedor interno */
-            background-color: #ff86e3; /* Color de fondo del contenedor interno */
-            border: 2px solid #333; /* Borde del contenedor interno */
-            display: flex; /* Usamos flexbox para centrar el texto */
-            align-items: center; /* Centrado verticalmente */
-            justify-content: center; /* Centrado horizontalmente */
-            margin-top: 2px;
-            margin-left: 2px;
-            margin-right: 2px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor interno */
-        }
-
-        /* Estilo para el texto dentro del contenedor interno */
-        .inner-text {
-            font-size: 18px; /* Tamaño del texto */
-            color: #333; /* Color del texto */
-        }
-    </style>
+    <title>Citas</title>
+    <link rel="stylesheet" href="Citas.css">
 </head>
+
 <body>
-
-<div class="container">
-    <div class="inner-container">
-        <div class="inner-text">Texto en el Contenedor Interno</div>
+    <h1>CITAS</h1>
+    <div class="quote-container">
+        <div class="quote quote1">
+            <div class="quote-text textpink">
+                La amistad es un contrato por el cual nos obligamos a hacer pequeños favores a los demás para que los demás nos los hagan grandes.
+            </div>
+            <div class="author">Barón de Montesquieu (1689-1755), filósofo y jurista francés.</div>
+        </div>
+        <div class="quote quote2">
+            <div class="quote-text textgreen">
+                Si sale, sale. Si no sale, hay que volver a empezar. Todo lo demás son fantasías.
+            </div>
+            <div class="author green">Edouard Manet (1832-1883), pintor francés.</div>
+        </div>
+        <div class="quote quote3">
+            <div class="quote-text textpink">
+                Te quiero como eres. Pero no me digas cómo eres...
+            </div>
+            <div class="author">Antonio Porchia, (1886-1968) escritor argentino.</div>
+        </div>
+        <div class="quote quote4">
+            <div class="quote-text textblue">
+                Pasamos lo mejor de la vida diciendo "es demasiado pronto" y luego "es demasiado tarde".
+            </div>
+            <div class="author blue">Gustave Flaubert (1821-1880), escritor francés.</div>
+        </div>
+        <div class="quote quote5">
+            <div class="quote-text textgreen">
+                Para trabajar basta estar convencido de una cosa: que trabajar es menos aburrido que divertirse.
+            </div>
+            <div class="author green">Charles Baudelaire (1821-1867), poeta francés.</div>
+        </div>
+        <div class="quote quote6">
+            <div class="quote-text textblue">
+                Para la mayoría de nosotros la verdadera vida es la vida que no llevamos.
+            </div>
+            <div class="author blue">Oscar Wilde (1854-1900), escritor británico.</div>
+        </div>
     </div>
-</div>
-
 </body>
 </html>
